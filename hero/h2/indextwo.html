@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800&display=swap');
+
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        max-width: 1200px;
+        height: 100vh;
+        margin: 0 auto;
+        font-family: 'Nunito Sans', sans-serif;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 30px 0 20px 0;
+    }
+
+    .navactions a {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 5px 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        list-style: none;
+        color: #8b8a8acf;
+    }
+
+    .navactions a:hover {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 5px 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        list-style: none;
+        color: #8b8a8acf;
+        background-color: #eff0f0;
+    }
+    .navactions a:first-child {
+      color: #e7a55c;
+    }
+
+    .navactions a:last-child {
+      padding: 5px 15px;
+      margin: 0px 15px;
+      border: #8b8a8acf solid 0.5px;
+      border-radius: 5px;
+      color: #38477b;
+    }
+
+    .navactions a:last-child:hover {
+      padding: 5px 15px;
+      margin: 0px 15px;
+      border: solid 0.5px;
+      border-radius: 5px;
+      color: white;
+      background-color: #38477b;
+    }
+
+    main {
+        display: flex;
+        justify-content: space-around;
+        /* width: 60%; */
+        
+    }
+
+    .hero-text {
+      width: 450px;
+      margin: 100px 10px 20px 10px;
+    }
+
+    .hero-text h4 {
+        font-size: 70px;
+        font-weight: 700;
+    }
+    .hero-text p {
+        font-size: 14px;
+        font-weight: 300;
+        color: #8b8a8acf;
+        margin: 10px 0px 25px 0px;
+        line-height: 22px;
+     }
+
+    img {
+      height: 600px;
+    }
+
+    input {
+        border: none;
+    }
+
+    input::placeholder {
+      color: #8b8a8acf;
+      opacity: 0.7;
+    }
+
+
+    button {
+      color: white;
+      background-color: #38477b;
+      padding: 8px 20px;
+      border-radius: 4px;
+      border: none;
+      font-weight: 300;
+      font-size: 12px;
+    }
+
+    section form {
+      font-size: 5x;
+    }
+
+    section {
+      border: #8b8a8acf solid 0.5px;
+      border-radius: 5px;
+      padding: 5px 0px 5px 18px;
+      width: 287px;
+    }
+  </style>
+  <body>
+    <d class="container">
+        <header>
+            <nav>
+              <div class="logo">
+                <img src="" />
+                <p>Logo</p>
+              </div>
+              <div class="navactions">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Success Story</a>
+                <a href="#">Pricing</a>
+                <a href="#">Contact Now</a>
+              </div>
+            </nav>
+          </header>
+          <main>
+              <div class="hero-text">
+                <h4>Increase<br/>Your Income</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur
+                  temporibus laboriosam aspernatur vero dignissimos nisi explicabo,
+                  reprehenderit dolore cupiditate quasi!
+                </p>
+                <section>
+                  <form>
+                    <input type="email" placeholder="Your mail here"/>
+                    <button>Book Now</button>
+                  </form>
+                </section>
+                <div>
+
+                </div>
+              </div>
+              <div class="hero-image">
+                <img src="./3d-business-growing-statistics.png" />
+              </div>
+          </main>
+    </div>
+  </body>
+</html>
